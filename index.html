@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valores SERS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a los Valores de SERS</h1>
+    <p>Conoce los pilares que definen nuestra cultura organizacional.</p>
+    <button onclick="startExperience()">Comenzar</button>
+  </header>
+
+  <main id="content" style="display: none;">
+    <section class="valor" id="valor1">
+      <h2>🔹 Servicio</h2>
+      <p>Nos dedicamos a ayudar con excelencia a nuestros usuarios internos y externos.</p>
+    </section>
+    <section class="valor" id="valor2">
+      <h2>🔹 Ética</h2>
+      <p>Actuamos con transparencia, honestidad y respeto en todas nuestras acciones.</p>
+    </section>
+    <section class="valor" id="valor3">
+      <h2>🔹 Responsabilidad</h2>
+      <p>Cumplimos con nuestros compromisos y asumimos las consecuencias de nuestras decisiones.</p>
+    </section>
+    <section class="valor" id="valor4">
+      <h2>🔹 Solidaridad</h2>
+      <p>Trabajamos en equipo y apoyamos a quienes lo necesitan en momentos clave.</p>
+    </section>
+
+    <section class="quiz">
+      <h2>🧠 Quiz de valores</h2>
+      <div id="quiz-container"></div>
+      <button onclick="submitQuiz()">Enviar respuestas</button>
+    </section>
+
+    <section class="resultado" id="resultado" style="display: none;">
+      <h2>🎉 Resultado</h2>
+      <p id="score"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
